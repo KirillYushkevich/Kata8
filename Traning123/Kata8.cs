@@ -7,22 +7,10 @@ using System.Threading.Tasks;
 
 namespace Traning123
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-
-            Kata.MyLanguages("#FF9933");
-            Console.ReadKey();
-        }
-    }
-
-
-
 
     public static class Kata
     {
-        public static List<int> MyLanguages(string s)
+        public static List<int> hexStringToRGB(string s)
         {
             List<int> result = new List<int>();
             char[] arr = s.ToCharArray();
